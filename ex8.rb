@@ -10,13 +10,20 @@ end
 
 p sum
 
+#created a method for an array summation
 
 def sum_arrays(array)
   sum =0
-  array.each do |purchase|
-    sum += purchase
+  array.each do |num|
+    sum += num
   end
 sum
 end
 
-sum_arrays(expenses)
+#used method on a different array
+p sum_arrays(expenses)
+
+dogs = [2, 3, 67, 89]
+
+
+p sum_arrays(dogs)
