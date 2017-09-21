@@ -32,7 +32,7 @@ puts "There are #{count_list(grocery_list)} items in my grocery list!"
 grocery_list_2 = ["almond milk", "dates", "peanut butter", "eggs", "brown rice"]
 
 
-def banana_checker(array)
+def banana_checker(array) #becareul about using p, use return instead in statements
   array.each do |item|
     if item == "bananas"
       return "You don't need to pick up bananas today"
